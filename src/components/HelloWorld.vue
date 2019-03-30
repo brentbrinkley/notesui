@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Placeholder Component</h1>
+    <h1>Notes</h1>
   </div>
 </template>
 

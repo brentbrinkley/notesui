@@ -1,20 +1,26 @@
 <template>
   <div>
     <div :class="classIn">
-      <img class="svg" :src="shapes.star">
+      <img class="svg" :src="shape[0]">
     </div>
   </div>
 </template>
 
 <script>
-import shapes from ".././assets/images.js";
+import circle from ".././assets/circle.svg";
+import moon from ".././assets/moon.svg";
+import triangle from ".././assets/triangle.svg";
+import plus from ".././assets/plus.svg";
 
 export default {
   props: ["classIn"],
   data() {
     return {
-      shapes
+      shape: [circle, moon, square]
     };
+  },
+  render(h) {
+    return h();
   }
 };
 </script>
@@ -31,24 +37,24 @@ export default {
 .svg {
   z-index: 100;
   width: 50%;
-}
-
-#moon {
-  width: 30%;
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .hex {
   position: relative;
-  margin: 0.8em 0em;
-  width: 100px; /*6.2em*/
-  height: 64px; /*4em*/
+  margin: 1.5em 3em;
+  width: 6.2em;
+  height: 4em;
   border-radius: 10px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
 
   top: 0;
-  transition: all 0.1s ease-in;
+  transition: all 0.2s ease;
+  // transform: rotate(90deg);
 
   &:before,
   &:after {
@@ -67,10 +73,6 @@ export default {
 
   &:after {
     transform: rotate(-60deg);
-  }
-  &:hover {
-    // animation: bounce 1s 0.5s;
-    transform: scale(0.9);
   }
 }
 

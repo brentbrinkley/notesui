@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="moon" width="45px" height="59px" viewBox="0 0 45 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>2-Moon-C-Sharp</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-150.000000, -42.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="2-Moon-C-Sharp" transform="translate(150.000000, 42.000000)">
+                <g id="Page-3">
+                    <g>
+                        <path d="M3.05199564e-13,53.8214188 C4.39944576,56.5065548 9.5693818,58.0536913 15.1006711,58.0536913 C31.1317561,58.0536913 44.1275168,45.0579306 44.1275168,29.0268456 C44.1275168,12.9957607 31.1317561,0 15.1006711,0 C9.5693818,0 4.39944576,1.54713648 3.05199564e-13,4.23227245 C8.3512683,9.32934424 13.9261745,18.52705 13.9261745,29.0268456 C13.9261745,39.5266413 8.3512683,48.724347 0,53.8214188 L3.05199564e-13,53.8214188 Z" id="2-Moon-C-Sharp"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
