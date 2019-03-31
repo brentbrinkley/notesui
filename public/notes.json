@@ -1,0 +1,898 @@
+[
+  {
+    "color": "brown",
+    "shape": "circle",
+    "midi": 0,
+    "oldVal": "C-1",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "moon",
+    "midi": 1,
+    "oldVal": "C#-1",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "star",
+    "midi": 2,
+    "oldVal": "D-1",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "plus",
+    "midi": 3,
+    "oldVal": "D#-1",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "triangle",
+    "midi": 4,
+    "oldVal": "E-1",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "square",
+    "midi": 5,
+    "oldVal": "F-1",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "key",
+    "midi": 6,
+    "oldVal": "F#-1",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "leaf",
+    "midi": 7,
+    "oldVal": "G-1",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "crown",
+    "midi": 8,
+    "oldVal": "G#-1",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "cube",
+    "midi": 9,
+    "oldVal": "A-1",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "minus",
+    "midi": 10,
+    "oldVal": "A#-1",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "brown",
+    "shape": "sun",
+    "midi": 11,
+    "oldVal": "B-1",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "circle",
+    "midi": 12,
+    "oldVal": "C0",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "moon",
+    "midi": 13,
+    "oldVal": "C#0",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "star",
+    "midi": 14,
+    "oldVal": "D0",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "plus",
+    "midi": 15,
+    "oldVal": "D#0",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "triangle",
+    "midi": 16,
+    "oldVal": "E0",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "square",
+    "midi": 17,
+    "oldVal": "F0",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "key",
+    "midi": 18,
+    "oldVal": "F#0",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "leaf",
+    "midi": 19,
+    "oldVal": "G0",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "crown",
+    "midi": 20,
+    "oldVal": "G#0",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "cube",
+    "midi": 21,
+    "oldVal": "A0",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "minus",
+    "midi": 22,
+    "oldVal": "A#0",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "black",
+    "shape": "sun",
+    "midi": 23,
+    "oldVal": "B0",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "circle",
+    "midi": 24,
+    "oldVal": "C1",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "moon",
+    "midi": 25,
+    "oldVal": "C#1",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "star",
+    "midi": 26,
+    "oldVal": "D1",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "plus",
+    "midi": 27,
+    "oldVal": "D#1",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "triangle",
+    "midi": 28,
+    "oldVal": "E1",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "square",
+    "midi": 29,
+    "oldVal": "F1",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "key",
+    "midi": 30,
+    "oldVal": "F#1",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "leaf",
+    "midi": 31,
+    "oldVal": "G1",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "crown",
+    "midi": 32,
+    "oldVal": "G#1",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "cube",
+    "midi": 33,
+    "oldVal": "A1",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "minus",
+    "midi": 34,
+    "oldVal": "A#1",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "red",
+    "shape": "sun",
+    "midi": 35,
+    "oldVal": "B1",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "circle",
+    "midi": 36,
+    "oldVal": "C2",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "moon",
+    "midi": 37,
+    "oldVal": "C#2",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "star",
+    "midi": 38,
+    "oldVal": "D2",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "plus",
+    "midi": 39,
+    "oldVal": "D#2",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "triangle",
+    "midi": 40,
+    "oldVal": "E2",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "square",
+    "midi": 41,
+    "oldVal": "F2",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "key",
+    "midi": 42,
+    "oldVal": "F#2",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "leaf",
+    "midi": 43,
+    "oldVal": "G2",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "crown",
+    "midi": 44,
+    "oldVal": "G#2",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "cube",
+    "midi": 45,
+    "oldVal": "A2",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "minus",
+    "midi": 46,
+    "oldVal": "A#2",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "orange",
+    "shape": "sun",
+    "midi": 47,
+    "oldVal": "B2",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "circle",
+    "midi": 48,
+    "oldVal": "C3",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "moon",
+    "midi": 49,
+    "oldVal": "C#3",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "star",
+    "midi": 50,
+    "oldVal": "D3",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "plus",
+    "midi": 51,
+    "oldVal": "D#3",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "triangle",
+    "midi": 52,
+    "oldVal": "E3",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "square",
+    "midi": 53,
+    "oldVal": "F3",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "key",
+    "midi": 54,
+    "oldVal": "F#3",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "leaf",
+    "midi": 55,
+    "oldVal": "G3",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "crown",
+    "midi": 56,
+    "oldVal": "G#3",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "cube",
+    "midi": 57,
+    "oldVal": "A3",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "minus",
+    "midi": 58,
+    "oldVal": "A#3",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "yellow",
+    "shape": "sun",
+    "midi": 59,
+    "oldVal": "B3",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "circle",
+    "midi": 60,
+    "oldVal": "C4",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "moon",
+    "midi": 61,
+    "oldVal": "C#4",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "star",
+    "midi": 62,
+    "oldVal": "D4",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "plus",
+    "midi": 63,
+    "oldVal": "D#4",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "triangle",
+    "midi": 64,
+    "oldVal": "E4",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "square",
+    "midi": 65,
+    "oldVal": "F4",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "key",
+    "midi": 66,
+    "oldVal": "F#4",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "leaf",
+    "midi": 67,
+    "oldVal": "G4",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "crown",
+    "midi": 68,
+    "oldVal": "G#4",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "cube",
+    "midi": 69,
+    "oldVal": "A4",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "minus",
+    "midi": 70,
+    "oldVal": "A#4",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "green",
+    "shape": "sun",
+    "midi": 71,
+    "oldVal": "B4",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "circle",
+    "midi": 72,
+    "oldVal": "C5",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "moon",
+    "midi": 73,
+    "oldVal": "C#5",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "star",
+    "midi": 74,
+    "oldVal": "D5",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "plus",
+    "midi": 75,
+    "oldVal": "D#5",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "triangle",
+    "midi": 76,
+    "oldVal": "E5",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "square",
+    "midi": 77,
+    "oldVal": "F5",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "key",
+    "midi": 78,
+    "oldVal": "F#5",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "leaf",
+    "midi": 79,
+    "oldVal": "G5",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "crown",
+    "midi": 80,
+    "oldVal": "G#5",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "cube",
+    "midi": 81,
+    "oldVal": "A5",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "minus",
+    "midi": 82,
+    "oldVal": "A#5",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "cyan",
+    "shape": "sun",
+    "midi": 83,
+    "oldVal": "B5",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "circle",
+    "midi": 84,
+    "oldVal": "C6",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "moon",
+    "midi": 85,
+    "oldVal": "C#6",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "star",
+    "midi": 86,
+    "oldVal": "D6",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "plus",
+    "midi": 87,
+    "oldVal": "D#6",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "triangle",
+    "midi": 88,
+    "oldVal": "E6",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "square",
+    "midi": 89,
+    "oldVal": "F6",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "key",
+    "midi": 90,
+    "oldVal": "F#6",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "leaf",
+    "midi": 91,
+    "oldVal": "G6",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "crown",
+    "midi": 92,
+    "oldVal": "G#6",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "cube",
+    "midi": 93,
+    "oldVal": "A6",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "minus",
+    "midi": 94,
+    "oldVal": "A#6",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "blue",
+    "shape": "sun",
+    "midi": 95,
+    "oldVal": "B6",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "circle",
+    "midi": 96,
+    "oldVal": "C7",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "moon",
+    "midi": 97,
+    "oldVal": "C#7",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "star",
+    "midi": 98,
+    "oldVal": "D7",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "plus",
+    "midi": 99,
+    "oldVal": "D#7",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "triangle",
+    "midi": 100,
+    "oldVal": "E7",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "square",
+    "midi": 101,
+    "oldVal": "F7",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "key",
+    "midi": 102,
+    "oldVal": "F#7",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "leaf",
+    "midi": 103,
+    "oldVal": "G7",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "crown",
+    "midi": 104,
+    "oldVal": "G#7",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "cube",
+    "midi": 105,
+    "oldVal": "A7",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "minus",
+    "midi": 106,
+    "oldVal": "A#7",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "purple",
+    "shape": "sun",
+    "midi": 107,
+    "oldVal": "B7",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "circle",
+    "midi": 108,
+    "oldVal": "C8",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "moon",
+    "midi": 109,
+    "oldVal": "C#8",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "star",
+    "midi": 110,
+    "oldVal": "D8",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "plus",
+    "midi": 111,
+    "oldVal": "D#8",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "triangle",
+    "midi": 112,
+    "oldVal": "E8",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "square",
+    "midi": 113,
+    "oldVal": "F8",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "key",
+    "midi": 114,
+    "oldVal": "F#8",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "leaf",
+    "midi": 115,
+    "oldVal": "G8",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "crown",
+    "midi": 116,
+    "oldVal": "G#8",
+    "svg": "<svg id=\"crown\" width=\"72\" height=\"51\" viewBox=\"0 0 72 51\" xmlns=\"http://www.w3.org/2000/svg\"><title> 9-Crown-G-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M61.5 12.7C61.5 14.8 62.5 16.5 64 17.5 60.8 22.2 56.4 27.6 51.9 29.2 45.9 31.3 40.3 18.5 37.6 11 39.6 10.2 41.1 8.1 41.1 5.6 41.1 2.5 38.8 0 35.9 0 33.1 0 30.8 2.5 30.8 5.6 30.8 8.1 32.2 10.2 34.3 11 31.5 18.5 26 31.3 20 29.2 15.4 27.6 11 22.2 7.9 17.5 9.4 16.5 10.4 14.8 10.4 12.7 10.4 9.6 8 7.1 5.2 7.1 2.3 7.1 0 9.6 0 12.7 0 15.9 2.3 18.4 5.2 18.4 5.2 18.4 12.3 50.9 12.3 50.9L59.5 50.9 66.5 18.4C69.6 18.4 71.9 15.9 71.9 12.7 71.9 9.6 69.6 7.1 66.7 7.1 63.8 7.1 61.5 9.6 61.5 12.7Z\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "cube",
+    "midi": 117,
+    "oldVal": "A8",
+    "svg": "<svg id=\"cube\" width=\"60\" height=\"69\" viewBox=\"0 0 60 69\" xmlns=\"http://www.w3.org/2000/svg\"><title> 10-Metatron-A</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"30.1 0 59.6 17 59.6 51.1 30.1 68.1 0.6 51.1 0.6 17\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "minus",
+    "midi": 118,
+    "oldVal": "A#8",
+    "svg": "<svg id=\"minus\" width=\"63\" height=\"28\" viewBox=\"0 0 63 28\" xmlns=\"http://www.w3.org/2000/svg\"><title> 11-Minus-A-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"62.2\" height=\"27.1\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "pink",
+    "shape": "sun",
+    "midi": 119,
+    "oldVal": "B8",
+    "svg": "<svg id=\"sun\" width=\"76\" height=\"75\" viewBox=\"0 0 76 75\" xmlns=\"http://www.w3.org/2000/svg\"><title> 12-Sun-B</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"37.6 64.2 30.7 74.9 28.1 62.4 17.7 69.9 19.8 57.3 7.5 60.5 14 49.5 1.3 48.1 11.3 40.2 0 34.3 12.2 30.5 3.8 20.9 16.5 21.8 12.2 9.9 23.7 15.3 24 2.6 32.8 11.8 37.6 0 42.5 11.8 51.3 2.6 51.6 15.3 63.1 9.9 58.7 21.8 71.5 20.9 63.1 30.5 75.3 34.3 64 40.2 74 48.1 61.3 49.5 67.8 60.5 55.5 57.3 57.5 69.9 47.2 62.4 44.6 74.9\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "circle",
+    "midi": 120,
+    "oldVal": "C9",
+    "svg": "<svg id=\"circle\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 1-Circle-C</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><circle cx=\"29.3\" cy=\"29.3\" r=\"29.3\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "moon",
+    "midi": 121,
+    "oldVal": "C#9",
+    "svg": "<svg id=\"moon\" width=\"45\" height=\"59\" viewBox=\"0 0 45 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 2-Moon-C-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M0 53.8C4.4 56.5 9.6 58.1 15.1 58.1 31.1 58.1 44.1 45.1 44.1 29 44.1 13 31.1 0 15.1 0 9.6 0 4.4 1.5 0 4.2 8.4 9.3 13.9 18.5 13.9 29 13.9 39.5 8.4 48.7 0 53.8L0 53.8Z\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "star",
+    "midi": 122,
+    "oldVal": "D9",
+    "svg": "<svg id=\"star\" width=\"63\" height=\"63\" viewBox=\"0 0 63 63\" xmlns=\"http://www.w3.org/2000/svg\"><title> 3-Star-D</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"40.7 53.9 31.3 62.1 21.7 54.1 9.3 53.2 8.2 40.7 0 31.3 8 21.7 8.9 9.3 21.3 8.2 30.8 0 40.3 8 52.8 8.9 53.9 21.3 62.1 30.8 54.1 40.3 53.2 52.8\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "plus",
+    "midi": 123,
+    "oldVal": "D#9",
+    "svg": "<svg id=\"plus\" width=\"59\" height=\"59\" viewBox=\"0 0 59 59\" xmlns=\"http://www.w3.org/2000/svg\"><title> 4-Plus-D-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M18.5 18.5L4 18.5C1.8 18.5 0 20.3 0 22.5L0 36.5C0 38.7 1.8 40.5 4 40.5L18.5 40.5 18.5 55C18.5 57.2 20.3 59 22.5 59L36.5 59C38.7 59 40.5 57.2 40.5 55L40.5 40.5 55 40.5C57.2 40.5 59 38.7 59 36.5L59 22.5C59 20.3 57.2 18.5 55 18.5L40.5 18.5 40.5 4C40.5 1.8 38.7 0 36.5 0L22.5 0C20.3 0 18.5 1.8 18.5 4L18.5 18.5Z\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "triangle",
+    "midi": 124,
+    "oldVal": "E9",
+    "svg": "<svg id=\"triangle\" width=\"66\" height=\"54\" viewBox=\"0 0 66 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 5-Triangle-E</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><polygon points=\"32.6 0 65.3 53.4 0 53.4\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "square",
+    "midi": 125,
+    "oldVal": "F9",
+    "svg": "<svg id=\"square\" width=\"54\" height=\"54\" viewBox=\"0 0 54 54\" xmlns=\"http://www.w3.org/2000/svg\"><title> 6-Square-F</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><rect width=\"53.5\" height=\"53.5\" rx=\"6\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "key",
+    "midi": 126,
+    "oldVal": "F#9",
+    "svg": "<svg id=\"key\" width=\"36\" height=\"60\" viewBox=\"0 0 36 60\" xmlns=\"http://www.w3.org/2000/svg\"><title> 7-Key-F-Sharp</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M8.8 28.6C3.5 25.9 0 21 0 15.4 0 6.9 8.1 0 18 0 27.9 0 36 6.9 36 15.4 36 21 32.5 25.9 27.2 28.6L34.9 56.1C35.5 58.3 34.2 60 32 60L4 60C1.8 60 0.5 58.3 1.1 56.1L8.8 28.6Z\"/></g></g></svg>"
+  },
+  {
+    "color": "grey",
+    "shape": "leaf",
+    "midi": 127,
+    "oldVal": "G9",
+    "svg": "<svg id=\"leaf\" width=\"55\" height=\"65\" viewBox=\"0 0 55 65\" xmlns=\"http://www.w3.org/2000/svg\"><title> 8-Leaf-G</title><desc> Created with Sketch.</desc><g fill=\"none\"><g fill=\"#FFF\"><path d=\"M42.3 12.9C45.6 16.5 48.4 20.3 50.1 24.1 55.8 36.1 55.8 48.2 50.1 54.2 45.1 59.5 35.5 60.2 29.4 56.9 29.4 57 29.5 57.1 29.5 57.2L29.6 64.3 25.1 64.3 24.9 57.2C24.9 57.1 24.9 57 24.9 56.9 18.8 60.2 9.3 59.5 4.3 54.2 -1.4 48.2-1.4 36.1 4.3 24.1 8.3 15.1 18.6 6 27.2 0 29.9 1.9 32.8 4.1 35.7 6.6 33.8 7.3 32.4 9.1 32.4 11.2 32.4 13.9 34.7 16.1 37.5 16.1 39.7 16.1 41.6 14.8 42.3 12.9Z\"/></g></g></svg>"
+  }
+]

@@ -1,23 +1,39 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <!-- <Note classIn="badge orange"></Note>
-    <Note classIn="badge red"></Note>-->
-    <NoteContainer></NoteContainer>
+    <HelloWorld/>
+    <NoteContainer :notes="notes"></NoteContainer>
   </div>
 </template>
 
 <script>
+import axios from "axios";
 import HelloWorld from "./components/HelloWorld.vue";
 import Note from "./components/Note.vue";
 import NoteContainer from "./components/NoteContainer.vue";
 
 export default {
   name: "app",
+
   components: {
     HelloWorld,
     Note,
     NoteContainer
+  },
+
+  data() {
+    return {
+      notes: null,
+      errors: []
+    };
+  },
+
+  created() {
+    axios
+      .get("/notes.json")
+      .then(response => (this.notes = response))
+      .catch(e => {
+        this.errors.push(e);
+      });
   }
 };
 </script>

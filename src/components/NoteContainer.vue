@@ -1,49 +1,62 @@
 <template>
   <div class="container">
+    <div :key="note.midi" v-for="note in notes" class="span">
+      {{notes}}
+      <!-- <Note
+        color="note.color"
+        shape="note.shape"
+        midiVal="note.midi"
+        standardVal="note.oldVal"
+        svgString="note.svg"
+      ></Note>-->
+    </div>
     <!-- Placehodlers -->
-    <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex silver"></Note>
+    <!-- <div :key="num" v-for="num in nums" class="span">
+      <Note color="silver"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex pink"></Note>
+      <Note color="pink"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex purple"></Note>
+      <Note color="purple"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex blue-dark"></Note>
+      <Note color="blue-dark"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex blue"></Note>
+      <Note color="blue"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex teal"></Note>
+      <Note color="teal"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex yellow"></Note>
+      <Note color="yellow"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex orange"></Note>
+      <Note color="orange"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex red"></Note>
+      <Note color="red"></Note>
     </div>
     <div :key="num" v-for="num in nums" class="span">
-      <Note classIn="hex black"></Note>
-    </div>
+      <Note color="black"></Note>
+    </div>-->
   </div>
 </template>
 
 <script>
 import Note from "./Note.vue";
 export default {
+  props: ["notes"],
+
   components: {
     Note
   },
+
   data() {
-    return {
-      nums: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-    };
+    // return {
+    //   nums: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    // };
   }
 };
 </script>
