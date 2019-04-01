@@ -1,13 +1,22 @@
 <template>
+  <!-- To debug uncomment -->
+  <!-- <div>
+    <div
+      :key="note.midi"
+      v-for="note in reverseNoteOrder"
+    >{{note.midi}} {{note.color}} {{ note.shape}}</div>
+  </div>-->
+
   <div class="container">
-    <div :key="note.midi" v-for="note in notes" class="span">
-      <Note
+    <div :key="note.midi" v-for="note in reverseNoteOrder" class="span">
+      {{note.midi}}
+      <!-- <Note
         :color="note.color"
         :shape="note.shape"
         :midiVal="note.midi"
         :standardVal="note.oldVal"
         :svgString="note.svg"
-      ></Note>
+      ></Note>-->
     </div>
   </div>
 </template>
@@ -21,10 +30,28 @@ export default {
     Note
   },
 
+  data() {
+    return {
+      MAJOR: [2, 2, 1, 2, 2, 2, 1]
+    };
+  },
+
   computed: {
-    changeOrd() {
-      return this.notes.reverse();
+    reverseNoteOrder() {
+      let cloneNotes = this.notes;
+      return cloneNotes.reverse();
     }
+
+    // getVal(note) {
+    //   const major = [2, 2, 1, 2, 2, 2, 1];
+    //   for (let num in major) {
+    //     return note + num;
+    //   }
+    // },
+
+    // alterNotes() {
+    //   return this.notes.map(note => this.MAJOR.map(num => note.midi + num));
+    // }
   },
 
   methods: {
@@ -49,7 +76,22 @@ export default {
   justify-self: center;
 }
 
-.span:nth-child(12n + 7) {
+// .span:nth-child(12n + 7) {
+//   grid-column-start: 2;
+// }
+
+.span:nth-child(12n + 9) {
   grid-column-start: 2;
 }
+.span:first-child {
+  grid-column-start: 10;
+}
+
+// .span:nth-child(13n + 8) {
+//   grid-column-start: 10;
+// }
+
+// .grey-key:nth-child(1) {
+//   grid-column-start: 10;
+// }
 </style>
