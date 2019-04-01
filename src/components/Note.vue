@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      :class="'hex' + color"
+      :class="'hex ' + color"
       :shape="shape"
       :midiVal="midiVal"
       :standardVal="standardVal"
@@ -20,15 +20,7 @@ export default {
     return {
       shapes
     };
-  },
-
-  // computed: {
-  //   combinedClass() {
-  //     return `hex ${this.color}`;
-  //   }
-  // },
-
-  methods: {}
+  }
 };
 </script>
 
@@ -56,7 +48,7 @@ svg {
 
 .hex {
   position: relative;
-  margin: 0 0 1.11em 0;
+  margin: 0 0 1.5em 0;
   width: 100px; /*6.2em*/
   height: 64px; /*4em*/
   border-radius: 10px;
@@ -96,11 +88,6 @@ svg {
   color: #4a4a4a;
 }
 
-.brown {
-  background: linear-gradient(to top left, rgb(151, 126, 126) 0%, #654635 100%);
-  color: #a49085;
-}
-
 .orange {
   background: linear-gradient(to top left, #ffc107 0%, #f57c00 100%);
   color: #f68401;
@@ -126,22 +113,22 @@ svg {
   color: #7127a8;
 }
 
-.teal {
+.green {
   background: linear-gradient(to top left, #4db6ac 0%, #00796b 100%);
   color: #34a297;
 }
 
-.blue {
+.cyan {
   background: linear-gradient(to top left, #4fc3f7 0%, #2196f3 100%);
   color: #259af3;
 }
 
-.blue-dark {
+.blue {
   background: linear-gradient(to top left, #1976d2 0%, #283593 100%);
   color: #1c68c5;
 }
 
-.green {
+.green-light {
   background: linear-gradient(to top left, #cddc39 0%, #8bc34a 100%);
   color: #7cb342;
 }
@@ -151,12 +138,12 @@ svg {
   color: #00944a;
 }
 
-.silver {
+.grey {
   background: linear-gradient(to top left, #e0e0e0 0%, #bdbdbd 100%);
   color: #9e9e9e;
 }
 
-.gold {
+.brown {
   background: linear-gradient(to top left, #e6ce6a 0%, #b7892b 100%);
   color: #b7892b;
 }
