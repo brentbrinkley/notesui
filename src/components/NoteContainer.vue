@@ -8,15 +8,14 @@
   </div>-->
 
   <div class="container">
-    <div :key="note.midi" v-for="note in reverseNoteOrder" class="span">
-      {{note.midi}}
-      <!-- <Note
+    <div :key="note.midi" v-for="note in notes" class="span">
+      <Note
         :color="note.color"
         :shape="note.shape"
         :midiVal="note.midi"
         :standardVal="note.oldVal"
         :svgString="note.svg"
-      ></Note>-->
+      ></Note>
     </div>
   </div>
 </template>
@@ -37,18 +36,12 @@ export default {
   },
 
   computed: {
-    reverseNoteOrder() {
-      let cloneNotes = this.notes;
-      return cloneNotes.reverse();
-    }
-
     // getVal(note) {
     //   const major = [2, 2, 1, 2, 2, 2, 1];
     //   for (let num in major) {
     //     return note + num;
     //   }
     // },
-
     // alterNotes() {
     //   return this.notes.map(note => this.MAJOR.map(num => note.midi + num));
     // }

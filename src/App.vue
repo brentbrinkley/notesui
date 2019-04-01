@@ -30,7 +30,7 @@ export default {
   created() {
     axios
       .get("/notes.json")
-      .then(response => (this.notes = response.data))
+      .then(response => (this.notes = response.data.reverse()))
       .catch(e => {
         this.errors.push(e);
       });

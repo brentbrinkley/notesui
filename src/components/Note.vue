@@ -49,8 +49,8 @@ svg {
 .hex {
   position: relative;
   margin: 0 0 1.5em 0;
-  width: 100px; /*6.2em*/
-  height: 64px; /*4em*/
+  width: 6.2em;
+  height: 4em;
   border-radius: 10px;
   display: inline-flex;
   justify-content: center;
