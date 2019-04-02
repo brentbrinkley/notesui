@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <HelloWorld/>
-    <NoteContainer :notes="notes"></NoteContainer>
+    <NoteContainer :notes="organizedNotes()"></NoteContainer>
   </div>
 </template>
 
 <script>
 import axios from "axios";
+import order from "./helpers/sequenceHelper.js";
 import HelloWorld from "./components/HelloWorld.vue";
 import Note from "./components/Note.vue";
 import NoteContainer from "./components/NoteContainer.vue";
+
+console.log(order.notesOrder);
 
 export default {
   name: "app",
@@ -30,10 +33,16 @@ export default {
   created() {
     axios
       .get("/notes.json")
-      .then(response => (this.notes = response.data.reverse()))
+      .then(response => (this.notes = response.data))
       .catch(e => {
         this.errors.push(e);
       });
+  },
+
+  methods: {
+    organizedNotes() {
+      return order.notesOrder.map(index => this.notes[index]).reverse();
+    }
   }
 };
 </script>

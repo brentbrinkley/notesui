@@ -7,7 +7,7 @@
     >{{note.midi}} {{note.color}} {{ note.shape}}</div>
   </div>-->
 
-  <div class="container">
+  <div class="container-grid">
     <div :key="note.midi" v-for="note in notes" class="span">
       <Note
         :color="note.color"
@@ -22,29 +22,12 @@
 
 <script>
 import Note from "./Note.vue";
+
 export default {
   props: ["notes"],
 
   components: {
     Note
-  },
-
-  data() {
-    return {
-      MAJOR: [2, 2, 1, 2, 2, 2, 1]
-    };
-  },
-
-  computed: {
-    // getVal(note) {
-    //   const major = [2, 2, 1, 2, 2, 2, 1];
-    //   for (let num in major) {
-    //     return note + num;
-    //   }
-    // },
-    // alterNotes() {
-    //   return this.notes.map(note => this.MAJOR.map(num => note.midi + num));
-    // }
   },
 
   methods: {
@@ -56,7 +39,7 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
+.container-grid {
   display: grid;
   grid-gap: 2px;
   grid-template-columns: repeat(13, 1fr);
@@ -66,25 +49,18 @@ export default {
 
 .span {
   grid-column-end: span 2;
-  justify-self: center;
+  // justify-self: center;
 }
-
-// .span:nth-child(12n + 7) {
-//   grid-column-start: 2;
-// }
 
 .span:nth-child(12n + 9) {
   grid-column-start: 2;
 }
 .span:first-child {
-  grid-column-start: 10;
+  grid-column-start: 2;
 }
 
-// .span:nth-child(13n + 8) {
-//   grid-column-start: 10;
-// }
-
-// .grey-key:nth-child(1) {
-//   grid-column-start: 10;
-// }
+.span:nth-child(2) {
+  grid-column-end: span 10;
+  justify-self: start;
+}
 </style>

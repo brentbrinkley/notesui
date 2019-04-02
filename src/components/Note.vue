@@ -11,8 +11,6 @@
 </template>
 
 <script>
-import shapes from ".././assets/images.js";
-
 export default {
   props: ["color", "shape", "midiVal", "standardVal", "svgString"],
 
