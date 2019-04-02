@@ -12,13 +12,7 @@
 
 <script>
 export default {
-  props: ["color", "shape", "midiVal", "standardVal", "svgString"],
-
-  data() {
-    return {
-      shapes
-    };
-  }
+  props: ["color", "shape", "midiVal", "standardVal", "svgString"]
 };
 </script>
 

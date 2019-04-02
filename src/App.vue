@@ -23,6 +23,7 @@ export default {
     NoteContainer
   },
 
+  // () -> { notes : [Note], error : [String]}
   data() {
     return {
       notes: null,
@@ -30,6 +31,7 @@ export default {
     };
   },
 
+  // () -> () *SideEffect populates note data
   created() {
     axios
       .get("/notes.json")
@@ -40,6 +42,7 @@ export default {
   },
 
   methods: {
+    // () -> [Note]
     organizedNotes() {
       return order.notesOrder.map(index => this.notes[index]).reverse();
     }

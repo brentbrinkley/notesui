@@ -31,6 +31,7 @@ export default {
   },
 
   methods: {
+    // String -> [Note]
     filterColor(inputColor) {
       return this.notes.filter(note => note.color === inputColor);
     }
