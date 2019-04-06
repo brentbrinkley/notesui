@@ -135,7 +135,7 @@ svg {
   color: #9e9e9e;
 }
 
-.brown {
+.gold {
   background: linear-gradient(to top left, #e6ce6a 0%, #b7892b 100%);
   color: #b7892b;
 }
