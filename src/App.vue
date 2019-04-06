@@ -1,12 +1,14 @@
 <template>
   <div id="app">
     <HelloWorld/>
-    <NoteContainer :notes="notes"></NoteContainer>
+    <NoteContainer :notes="organizedNotes()"></NoteContainer>
   </div>
 </template>
 
+
 <script>
 import axios from "axios";
+import order from "./helpers/sequenceHelper.js";
 import HelloWorld from "./components/HelloWorld.vue";
 import Note from "./components/Note.vue";
 import NoteContainer from "./components/NoteContainer.vue";
@@ -20,6 +22,7 @@ export default {
     NoteContainer
   },
 
+  // data : () -> { notes : [Note], error : [String]}
   data() {
     return {
       notes: null,
@@ -27,13 +30,22 @@ export default {
     };
   },
 
+  // created : () -> () *SideEffect populates note data
   created() {
     axios
-      .get("/notes.json")
-      .then(response => (this.notes = response.data))
+      // .get("/notes.json")
+      .get("http://localhost:5000/")
+      .then(response => (this.notes = response.data.notes))
       .catch(e => {
         this.errors.push(e);
       });
+  },
+
+  methods: {
+    // organizedNotes : () -> [Note]
+    organizedNotes() {
+      return order.notesOrder.map(index => this.notes[index]).reverse();
+    }
   }
 };
 </script>
@@ -43,9 +55,6 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
-  /* color: #2c3e50; */
-  /* margin-top: 60px; */
 }
 
 svg {

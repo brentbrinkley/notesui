@@ -1,5 +1,7 @@
 # Notes UI
 
+![screenshot](shapes.png)
+
 This is the frontend to a Notes Instrument built with Vue JS. It's based on a changeable Isomorphic Keyboard layout that can improve a musicians knowledge and playing ability.
 
 ## Project setup

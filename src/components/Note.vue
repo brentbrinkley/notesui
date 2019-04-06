@@ -11,16 +11,8 @@
 </template>
 
 <script>
-import shapes from ".././assets/images.js";
-
 export default {
-  props: ["color", "shape", "midiVal", "standardVal", "svgString"],
-
-  data() {
-    return {
-      shapes
-    };
-  }
+  props: ["color", "shape", "midiVal", "standardVal", "svgString"]
 };
 </script>
 
@@ -49,8 +41,8 @@ svg {
 .hex {
   position: relative;
   margin: 0 0 1.5em 0;
-  width: 100px; /*6.2em*/
-  height: 64px; /*4em*/
+  width: 6.2em;
+  height: 4em;
   border-radius: 10px;
   display: inline-flex;
   justify-content: center;
@@ -143,7 +135,7 @@ svg {
   color: #9e9e9e;
 }
 
-.brown {
+.gold {
   background: linear-gradient(to top left, #e6ce6a 0%, #b7892b 100%);
   color: #b7892b;
 }

@@ -1,5 +1,13 @@
 <template>
-  <div class="container">
+  <!-- To debug uncomment -->
+  <!-- <div>
+    <div
+      :key="note.midi"
+      v-for="note in reverseNoteOrder"
+    >{{note.midi}} {{note.color}} {{ note.shape}}</div>
+  </div>-->
+
+  <div class="container-grid">
     <div :key="note.midi" v-for="note in notes" class="span">
       <Note
         :color="note.color"
@@ -14,6 +22,7 @@
 
 <script>
 import Note from "./Note.vue";
+
 export default {
   props: ["notes"],
 
@@ -21,13 +30,8 @@ export default {
     Note
   },
 
-  computed: {
-    changeOrd() {
-      return this.notes.reverse();
-    }
-  },
-
   methods: {
+    // String -> [Note]
     filterColor(inputColor) {
       return this.notes.filter(note => note.color === inputColor);
     }
@@ -36,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
+.container-grid {
   display: grid;
   grid-gap: 2px;
   grid-template-columns: repeat(13, 1fr);
@@ -46,10 +50,18 @@ export default {
 
 .span {
   grid-column-end: span 2;
-  justify-self: center;
+  // justify-self: center;
 }
 
-.span:nth-child(12n + 7) {
+.span:nth-child(12n + 9) {
   grid-column-start: 2;
+}
+.span:first-child {
+  grid-column-start: 2;
+}
+
+.span:nth-child(2) {
+  grid-column-end: span 10;
+  justify-self: start;
 }
 </style>
