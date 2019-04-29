@@ -34,8 +34,10 @@ export default {
   created() {
     axios
       // .get("/notes.json")
-      .get("http://localhost:5000/")
-      .then(response => (this.notes = response.data.notes))
+      .get("https://tranquil-springs-14961.herokuapp.com")
+      .then(
+        response => console.log(response.data) /*(this.notes = response.data)*/
+      )
       .catch(e => {
         this.errors.push(e);
       });
