@@ -12,31 +12,29 @@
       <Note
         :color="note.color"
         :shape="note.shape"
-        :midiVal="note.midi"
-        :standardVal="note.oldVal"
-        :svgString="note.svg"
+        :midi_val="note.midi_val"
+        :common_notation="note.common_notation"
+        :svg="note.svg"
       ></Note>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { Vue, Component, Prop } from "vue-property-decorator";
 import Note from "./Note.vue";
+import INote from "./interfaces/note";
 
-export default {
-  props: ["notes"],
+@Component({
+  components: { Note }
+})
+export default class NoteContainerVue extends Vue {
+  @Prop() notes!: INote[];
 
-  components: {
-    Note
-  },
-
-  methods: {
-    // String -> [Note]
-    filterColor(inputColor) {
-      return this.notes.filter(note => note.color === inputColor);
-    }
+  filterColor(inputColor: string): INote[] {
+    return this.notes.filter(note => note.color === inputColor);
   }
-};
+}
 </script>
 
 <style lang="scss">

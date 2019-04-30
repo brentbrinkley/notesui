@@ -3,17 +3,25 @@
     <div
       :class="'hex ' + color"
       :shape="shape"
-      :midiVal="midiVal"
-      :standardVal="standardVal"
-      v-html="svgString"
+      :midi_val="midi_val"
+      :common_notation="common_notation"
+      v-html="svg"
     ></div>
   </div>
 </template>
 
-<script>
-export default {
-  props: ["color", "shape", "midiVal", "standardVal", "svgString"]
-};
+<script lang="ts">
+import { Vue, Component, Prop } from "vue-property-decorator";
+
+@Component
+export default class Note extends Vue {
+  @Prop(String) color!: string;
+  @Prop(String) shape!: string;
+  @Prop(Number) midi_val!: number;
+  @Prop(String) common_notation!: string;
+  @Prop(String) svg!: string;
+  @Prop(Boolean) filtered!: boolean;
+}
 </script>
 
 <style scoped lang="scss">

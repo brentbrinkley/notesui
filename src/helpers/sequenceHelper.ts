@@ -3,8 +3,8 @@
 
 const flipSequence = [5, 3, 1, -1, -3, -5]
 
-var container = []
-var notesOrder = []
+var container: number[] = []
+var notesOrder: number[] = []
 
 for (let index = 0; index < 22; index++) {
   flipSequence.forEach(item => container.push(item))
